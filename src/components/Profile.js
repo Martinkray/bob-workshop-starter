@@ -13,8 +13,8 @@ function Profile() {
       spacing={2}
     >
       <Avatar
-        src="/bilde-av-blomst.jpeg"
-        alt="Blomst"
+        src="/Skjermbilde 2023-10-03 kl. 18.47.23.png"
+        alt="Blomst" 
         sx={{
           width: 150,
           height: 150,
@@ -23,7 +23,11 @@ function Profile() {
         }}
       />
       <Typography variant="h4" gutterBottom color="#3f51b5">
-        Tilfeldig fin blomst
+        Martin 23 år, student
+
+      
+
+    
       </Typography>
     </Stack>
   );
