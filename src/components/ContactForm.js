@@ -42,7 +42,7 @@ function ContactForm() {
 
       if (data.success) {
         setSnackbarMessage(
-          "Din melding har blitt sendt! Takk for at du kontaktet oss."
+          "Din melding har blitt sendt! Du har no blitt lurd xD"
         );
         setSnackbarType("success");
         setFormData({ email: "", message: "" });
@@ -66,7 +66,7 @@ function ContactForm() {
 
       <Stack component="form" onSubmit={handleSubmit} spacing={2}>
         <TextField
-          label="Din e-post"
+          label="lommepenger"
           variant="outlined"
           fullWidth
           margin="normal"
@@ -76,7 +76,7 @@ function ContactForm() {
           type="email"
         />
         <TextField
-          label="Melding"
+          label="solkrem"
           variant="outlined"
           fullWidth
           multiline

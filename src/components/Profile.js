@@ -1,5 +1,6 @@
 import React from "react";
 import { Avatar, Typography, Stack } from "@mui/material";
+import CardMedia from '@mui/material/CardMedia';
 
 function Profile() {
   return (
@@ -12,7 +13,13 @@ function Profile() {
       boxShadow={3}
       spacing={2}
     >
-      <Avatar
+      <CardMedia
+          component="img"
+        
+          image="/Skjermbilde 2023-10-03 kl. 18.47.23.png"
+          alt="green iguana"
+        />
+      {/* <Avatar
         src="/Skjermbilde 2023-10-03 kl. 18.47.23.png"
         alt="Blomst" 
         sx={{
@@ -21,7 +28,7 @@ function Profile() {
           margin: "auto",
           border: "4px solid #3f51b5",
         }}
-      />
+      /> */}
       <Typography variant="h4" gutterBottom color="#3f51b5">
         Martin 23 år, student
 
